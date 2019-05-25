@@ -4,7 +4,7 @@ An Email Notifier program (written in Python) which will send email notification
 
 [ Prerequisite: To run the program you must install selenium package for python - <https://pypi.org/project/selenium/> ]
 
-# IMPORTANT: For your safety and avoiding account freeze create new account on CGI portal!
+# IMPORTANT: For safety and avoiding account freeze, create a dummy account on CGI portal/website which is to be used for this program!
 
 Copyright (C) 2019 nikhilharishpatel
 
