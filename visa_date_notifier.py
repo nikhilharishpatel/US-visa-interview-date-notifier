@@ -8,7 +8,7 @@ from time import sleep
 def send_mail(latest_date):
     message = 'Latest Date: ' + latest_date
     email_sender = 'Sender.Email@gmail.com' # Modify Sender Email ID
-	email_password = 'Your.Email.Password' # Modify the Password
+    email_password = 'Your.Email.Password' # Modify the Password
     receiver = ['Receiver.1@gmail.com', 'Receiver.2@gmail.com', 'Receiver.3@gmail.com'] # Modify Receiver List
 
     try:
