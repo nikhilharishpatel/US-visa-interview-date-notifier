@@ -51,10 +51,10 @@ while True:
     print('Date', ' '.join(str(e) for e in date))
     if date[0] == 'July': # Enter the desired Month here
         if date[1] < '15': #Enter desired Date here
-            for _ in range(5):
+            for _ in range(1): # Increase the number if you want multiple email notifications
                 send_mail(' '.join(str(e) for e in date))
     if date[0] == 'June': # Enter a month before the desired month
-            for _ in range(5):
+            for _ in range(1): # Increase the number if you want multiple email notifications
                 send_mail(' '.join(str(e) for e in date))
     sleep(900) # Update the refresh frequency (Currently 15 mins)
     i += 1
