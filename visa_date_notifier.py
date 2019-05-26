@@ -6,7 +6,7 @@ from time import sleep
 
 # Function for sending email to email list
 def send_mail(latest_date):
-    message = 'Latest Date: ' + latest_date
+    message = '\nLatest Date: ' + latest_date
     email_sender = 'Sender.Email@gmail.com' # Modify Sender Email ID
     email_password = 'Your.Email.Password' # Modify the Password
     receiver = ['Receiver.1@gmail.com', 'Receiver.2@gmail.com', 'Receiver.3@gmail.com'] # Modify Receiver List
@@ -50,11 +50,11 @@ while True:
     date = content.text.split(' ')[-3:-1]
     print('Date', ' '.join(str(e) for e in date))
     if date[0] == 'July': # Enter the desired Month here
-        if date[1] < '15': #Enter desired Date here
+        if date[1][:-1] < '15': #Enter desired Date here
             for _ in range(1): # Increase the number if you want multiple email notifications
-                send_mail(' '.join(str(e) for e in date))
-    if date[0] == 'June': # Enter a month before the desired month
+                send_mail(' '.join(str(e) for e in date)[:-1])
+    if date[0] == 'June' or date[0] == 'May': # Enter a month before the desired month
             for _ in range(1): # Increase the number if you want multiple email notifications
-                send_mail(' '.join(str(e) for e in date))
+                send_mail(' '.join(str(e) for e in date)[:-1])
     sleep(900) # Update the refresh frequency (Currently 15 mins)
     i += 1
