@@ -2,7 +2,9 @@
 Facing the issue of not being able to find suitable US Visa Interview Date
 An Email Notifier program (written in Python) which will send email notifications to you and your friends, if there are any Visa slots available before your desired Visa Interview date
 
-[ Prerequisite: To run the program you must install selenium package for python - <https://pypi.org/project/selenium/> ]
+[ Prerequisite:
+  1. To run the program you must install selenium package for python - <https://pypi.org/project/selenium/>
+  2. Change the 'Less secure app access' settings to 'On' for your Gmail ID to send Email from your application. You can find the 'Less secure app access' part on <https://myaccount.google.com/security>]
 
 # IMPORTANT: For safety and avoiding account freeze, create a dummy account on CGI portal/website which is to be used for this program!
 
