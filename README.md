@@ -1,6 +1,6 @@
 # US Visa Interview
-Facing the issue of not being able to find suitable US Visa Interview Date
-An Email Notifier program (written in Python) which will send email notifications to you and your friends, if there are any Visa slots available before your desired Visa Interview date
+Facing the issue of not being able to find suitable US Visa Interview Date?
+An E-mail Notifier program (written in Python) which will send email notifications to you and your friends, if there are any Visa slots available before your desired Visa Interview date
 
 [ Prerequisite:
   1. To run the program you must install selenium package for python - <https://pypi.org/project/selenium/>
